@@ -14,7 +14,10 @@ namespace ImageGallery.Client.Controllers
     public class GalleryController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
-
+        /// <summary>
+        /// /
+        /// </summary>
+        /// <param name="httpClientFactory"></param>
         public GalleryController(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory ?? 
